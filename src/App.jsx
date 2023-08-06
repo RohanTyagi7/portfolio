@@ -88,7 +88,7 @@ export default function App() {
         </div>
       </div>
       <div>
-        <h1 className="name dispose" id="disposeName" ><span>I am </span><span className="gradientName" id="name" style={{fontSize: "100%"}}>Rohan</span></h1>
+        <h1 className="name dispose" id="disposeName" ><span id="name" style={{fontSize: "100%"}}><span>I am </span><span className="gradientName">Rohan</span></span></h1>
         <div style={{height: "100vh"}}></div>
       </div>
     </div>
