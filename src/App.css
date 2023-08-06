@@ -1,4 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 body{
-  background-color: #222222;
-  color: #dddddd;
+  background-color: #080808;
+  color: #C5C3C6;
+  font-family: 'Raleway', sans-serif;
+}
+.nav{
+  position: fixed;
+  border-bottom: 2px solid #1985A1;
+  width: 97%;
+  padding-left: 2%;
+  background-color: #080808;
+  top: 0;
+  height: 80px;
+}
+.navItemWrap{
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+.navItem{
+  cursor: pointer;
+  border-radius: 2px;
+  float: left;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.navItem:hover{
+  background-color:#1985A1;
+  color: #080808;
+}
+.nameNav{
+  cursor: pointer;
+  float: left;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.nameNav:hover{
+  font-size: 35px;
+}
+.name{
+  text-align: center;
+  vertical-align: center;
+  line-height: 80vh;
+  font-size: 10vh;
+}
+.gradientName{
+  background: -webkit-linear-gradient(#C5C3C6, #1985A1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dispose{
+  opacity: 1;
+}
+.disposeReversed{
+  opacity: 0;
 }
